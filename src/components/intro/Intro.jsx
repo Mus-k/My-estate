@@ -9,12 +9,18 @@ export const Intro = () => {
         {/* left */}
         <div className='intro-left'>
           <h1 className='intro-title'>
-          Home That Makes<br/> You Living Life!
+          Home That Makes<br/> You  <span className='hightlight'>Living</span>  Life!
           </h1>
           <p className='intro-text'>Are you looking for amazing Real estate?<br/>  Don't worry! we got it for you</p>
-          <Link to='/contact' className='btn'>
-            <p className='p'>contact us</p>
+         <div className='intro-btns'>
+         <Link to='/contact' className='btn btn-contact'>
+         contact us
           </Link>
+          <Link to='/contact' className='btn btn-latest'>
+         see the lastest
+          </Link>
+         </div>
+         
         </div>
 
         {/* right */}

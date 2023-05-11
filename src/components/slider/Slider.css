@@ -1,0 +1,80 @@
+.carousel {
+  padding: 100px 100px;
+}
+
+.slider-title {
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 20px;
+}
+
+
+.cards-slider {
+    position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+.cards-slider:hover {
+  transform: scale(1.02);
+}
+
+.nested-detail {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: space-around;
+  padding: 16px 12px;
+  width: 80%;
+}
+
+.nested-info {
+  display: flex;
+  justify-content: space-between;
+}
+.loremCard {
+  color: white;
+  padding: 10px 0px;
+  font-size: 16px;
+  font-family: sans-serif;
+}
+
+.cards-slider {
+  background: #d3d3d3;
+  max-width: 320px;
+}
+
+.priceCard {
+  color: rgba(80, 66, 241, 0.867);
+  font-size: 13px;
+  font-family: sans-serif;
+  font-weight: 600;
+}
+
+
+@media screen and (max-width:1024px){
+    .carousel {
+        padding: 100px 20px;
+      }
+    
+}
+/* @media screen and (max-width: 769px) {
+  .cards-slider .img-card img {
+    max-width: 250px;
+    margin: 0px 12px;
+  }
+}
+
+@media screen and (max-width: 664px) {
+  .cards-slider .img-card img {
+    max-width: 300px;
+    margin: 0px 12px;
+  }
+} */
