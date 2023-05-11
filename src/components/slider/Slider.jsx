@@ -4,6 +4,7 @@ import "react-multi-carousel/lib/styles.css";
 import "./Slider.css";
 //import {default as img1} from '../../assets/images/cardImage8.png';
 import data from "../../utils/Data";
+import { ResidenceDisplay } from "./ResidenceDisplay";
 export const Slider = () => {
   const responsive = {
     superLargeDesktop: {
@@ -25,28 +26,14 @@ export const Slider = () => {
     },
   };
 
-  const val = data.join(" ");
+
   return (
     <section className="carousel">
       <h1 className="slider-title">Latest residences</h1>
       <Carousel responsive={responsive}>
         {data.map((data) => (
-          <div className="cards-slider item-slider " key={data.id}>
-            <img
-              src={data.image}
-              alt="cardImage1"
-              height="300px"
-              width="100%"
-            />
-
-            <div className="nested-detail">
-              <div className="nested-info">
-                <h3>{data.location}</h3>
-                <p className="price-card">{data.price}</p>
-              </div>
-              <p className="loremCard">{data.detail}</p>
-            </div>
-          </div>
+          
+         <ResidenceDisplay data= {data}/>
         ))}
       </Carousel>
       ;

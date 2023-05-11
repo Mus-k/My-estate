@@ -1,11 +1,21 @@
 .carousel {
   padding: 100px 100px;
+  position: relative;
 }
 
 .slider-title {
   text-align: center;
   font-family: sans-serif;
-  font-size: 20px;
+  font-size: 35px;
+  margin-bottom: 50px;
+  color: rgba(80, 66, 241, 0.867);
+  transition: all 0.4s ease-in-out;
+  cursor: pointer;
+}
+
+.slider-title:hover{
+  
+    color: rgb(13, 13, 13);
 }
 
 
@@ -42,8 +52,8 @@
 .loremCard {
   color: white;
   padding: 10px 0px;
-  font-size: 16px;
-  font-family: sans-serif;
+  font-size: 10px;
+ 
 }
 
 .cards-slider {
