@@ -8,6 +8,8 @@ import { GoldenRoute } from "./components/routes/GoldenRoute";
 import { ContactRoute } from "./components/routes/ContactRoute";
 import { Modern } from "./components/modern/Modern";
 import { Slider } from "./components/slider/Slider";
+import { Overview } from "./components/overview/Overview";
+
 
 
 export const App = () => {
@@ -25,6 +27,8 @@ export const App = () => {
       </Routes>
       <Modern/>
       <Slider/>
+      <Overview/>
+     
     </div>
   );
 };

@@ -26,14 +26,13 @@ export const Slider = () => {
     },
   };
 
-
   return (
     <section className="carousel">
       <h1 className="slider-title">Latest residences</h1>
       <Carousel responsive={responsive}>
-        {data.map((data) => (
-          
-         <ResidenceDisplay data= {data}/>
+        {data.map((data, index) => (
+           
+             <ResidenceDisplay key={index}  data={  data} />
         ))}
       </Carousel>
       ;
