@@ -1,0 +1,53 @@
+
+.f-wrapper{
+  background: #6663da;
+  padding: 40px 100px;
+  margin-top: 50px;
+}
+.f-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.f-left {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.f-right{
+  display: flex;
+  flex-direction: column;
+}
+.primaryText{
+  font-size: 25px;
+  font-family: sans-serif;
+}
+
+.f-menu{
+  display: flex;
+ font-size: 20px;
+ font-family: sans-serif;
+}
+.f-title{
+  font-size: 30px;
+  font-family: sans-serif;
+}
+.f-menu {
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+  font-weight: 500;
+}
+
+
+@media (max-width:768px){
+  .f-container{
+    justify-content: center;
+  }
+
+  .f-container>div{
+    align-items: center;
+    text-align: center;
+  }
+}
