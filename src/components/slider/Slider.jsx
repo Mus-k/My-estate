@@ -31,13 +31,9 @@ export const Slider = () => {
       <h1 className="slider-title">Latest residences</h1>
       <Carousel responsive={responsive}>
         {data.map((data, index) => {
-return  ( <ResidenceDisplay key={index}  data={  data} />)
-        }
-           
-           
-        )}
+          return <ResidenceDisplay key={index} data={data}/>;
+        })}
       </Carousel>
-      ;
     </section>
   );
 };
