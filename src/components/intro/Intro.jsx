@@ -2,9 +2,17 @@ import React from 'react'
 import './Intro.css';
 import {default as introImage}  from '../../assets/images/cardImage8.png'
 import { Link } from 'react-router-dom';
+import { Modern } from '../modern/Modern';
+import { Slider } from '../slider/Slider';
+import { Overview } from '../overview/Overview';
+import { NewLetter } from '../newsletter/NewLetter';
+import { Footer } from '../footer/Footer';
 export const Intro = () => {
   return (
     <section className='intro'>
+      <section className='intro-wrapper'>
+
+
         <div className='intro-container'>
         {/* left */}
         <div className='intro-left'>
@@ -30,6 +38,15 @@ export const Intro = () => {
           </div>
         </div>
         </div>
+        
+      </section>
+        <section>
+        <Modern />
+      <Slider />
+      <Overview />
+      <NewLetter/>
+      <Footer/>
+        </section>
     </section>
   )
 }

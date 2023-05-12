@@ -30,10 +30,12 @@ export const Slider = () => {
     <section className="carousel">
       <h1 className="slider-title">Latest residences</h1>
       <Carousel responsive={responsive}>
-        {data.map((data, index) => (
+        {data.map((data, index) => {
+return  ( <ResidenceDisplay key={index}  data={  data} />)
+        }
            
-             <ResidenceDisplay key={index}  data={  data} />
-        ))}
+           
+        )}
       </Carousel>
       ;
     </section>

@@ -1,9 +1,12 @@
 .intro {
+
+  position: relative;
+  z-index: 2;
+}
+.intro-wrapper{
   display: flex;
   padding: 80px 100px 10px 100px;
   height: 100vh;
-  position: relative;
-  z-index: 2;
 }
 .intro-container {
   width: 100%;

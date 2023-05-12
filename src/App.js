@@ -6,11 +6,11 @@ import { Intro } from "./components/intro/Intro";
 import { AboutRoute } from "./components/routes/AboutRoute";
 import { GoldenRoute } from "./components/routes/GoldenRoute";
 import { ContactRoute } from "./components/routes/ContactRoute";
-import { Modern } from "./components/modern/Modern";
-import { Slider } from "./components/slider/Slider";
-import { Overview } from "./components/overview/Overview";
-import { NewLetter } from "./components/newsletter/NewLetter";
-import { Footer } from "./components/footer/Footer";
+// import { Modern } from "./components/modern/Modern";
+// import { Slider } from "./components/slider/Slider";
+// import { Overview } from "./components/overview/Overview";
+// import { NewLetter } from "./components/newsletter/NewLetter";
+// import { Footer } from "./components/footer/Footer";
 
 export const App = () => {
   return (
@@ -25,11 +25,7 @@ export const App = () => {
         <Route path="/golden" element={<GoldenRoute />} />
         <Route path="/contact" element={<ContactRoute />} />
       </Routes>
-      <Modern />
-      <Slider />
-      <Overview />
-      <NewLetter/>
-      <Footer/>
+     
     </div>
   );
 };

@@ -6,7 +6,7 @@ export const Overview = () => {
     <main>
         <section className='o-container'>
             <div className='title'>
-            <h2 className='o-title'>Our reviews</h2>
+            <h2 className='o-title'>Testimonials</h2>
             <div className='underline'></div>
             <Review/>
             </div>
