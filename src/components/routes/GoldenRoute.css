@@ -1,0 +1,74 @@
+.golden {
+  height: 100vh;
+  width: 100%;
+}
+
+.g-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding-top: 40px;
+  height: 300px;
+}
+
+.gh-title {
+  display: flex;
+  gap: 14px;
+  justify-content: center;
+  align-items: center;
+}
+
+.g-home {
+  font-size: 30px;
+  color: black;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.fa-arrows-turn-right {
+  color: rgb(234, 162, 18);
+  text-align: center;
+  padding-top: 10px;
+  font-size: 2rem;
+}
+
+.g-visa {
+  color: #6663e9;
+  font-size: large;
+}
+
+.g-info {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.g-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  width: 70%;
+  gap: 15px;
+  padding: 0px 20px;
+}
+.golden-sub-title,
+.golden-title {
+  text-align: center;
+}
+.visaImg-div {
+  max-width: 350px;
+}
+
+.golden-btn {
+  background: #6663e9;
+  border-radius: 15px;
+  padding: 10px 10px;
+}
+
+.g-link {
+  color: aliceblue;
+}
