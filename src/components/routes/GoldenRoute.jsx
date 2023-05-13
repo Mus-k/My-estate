@@ -2,6 +2,8 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import './GoldenRoute.css';
 import {default as golden} from '../../assets/images/visa.jpg'
+import { Overview } from '../overview/Overview';
+import { Footer } from '../footer/Footer';
 export const GoldenRoute = () => {
   return (
    <section className='golden'>
@@ -43,7 +45,8 @@ export const GoldenRoute = () => {
         </section>
       </div>
      
-    
+    <Overview/>
+    <Footer/>
    </section>
   )
 }
