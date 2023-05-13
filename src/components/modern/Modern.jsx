@@ -55,7 +55,7 @@ export const Modern = () => {
               <p className="price-1"> $205,500</p>
             </div>
             <p className="lorem">
-              Lorem ipsum dolor sit amet, amet consectetur adipiscing{" "}
+              Lorem ipsum dolor sit amet, ameet consectetur adipiscing{" "}
             </p>
           </div>
         </div>
