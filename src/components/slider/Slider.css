@@ -13,14 +13,12 @@
   cursor: pointer;
 }
 
-.slider-title:hover{
-  
-    color: rgb(13, 13, 13);
+.slider-title:hover {
+  color: rgb(13, 13, 13);
 }
 
-
 .cards-slider {
-    position: relative;
+  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -31,6 +29,7 @@
   margin: auto;
   text-align: center;
   font-family: arial;
+ 
 }
 .cards-slider:hover {
   transform: scale(1.02);
@@ -53,7 +52,6 @@
   color: white;
   padding: 10px 0px;
   font-size: 10px;
- 
 }
 
 .cards-slider {
@@ -68,12 +66,10 @@
   font-weight: 600;
 }
 
-
-@media screen and (max-width:1024px){
-    .carousel {
-        padding: 100px 20px;
-      }
-    
+@media screen and (max-width: 1024px) {
+  .carousel {
+    padding: 100px 20px;
+  }
 }
 /* @media screen and (max-width: 769px) {
   .cards-slider .img-card img {

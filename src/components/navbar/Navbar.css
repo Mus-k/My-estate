@@ -20,8 +20,7 @@
 }
 
 .nav-logo {
- 
-  color: #ffdd40;
+  color: #251b37;
   align-items: center;
   margin-left: 20px;
   cursor: pointer;
@@ -33,8 +32,8 @@
   transition: all 0.3s ease-in-out;
 }
 
-.nav-logo:hover{
- color: white;
+.nav-logo:hover {
+  color: #251b37;
 }
 
 .nav-menu {
@@ -69,11 +68,11 @@ ul li {
 
 .nav-item:hover:after {
   width: 100%;
-  background: #ffdd40;
+  background: #251b37;
 }
 
 .nav-item .active {
-  color: #ffdd40;
+  color: #251b37;
 }
 
 .menu-icon {
@@ -91,7 +90,7 @@ ul li {
     cursor: pointer;
   }
   .nav-menu {
-    background-color: aqua;
+    background: #6663e9;
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -108,7 +107,7 @@ ul li {
     display: table;
   }
   .nav-menu.active {
-    background: #1f5156;
+    /* background: #645CBB; */
     left: 0px;
     opacity: 1;
     transition: all 0.5s ease;

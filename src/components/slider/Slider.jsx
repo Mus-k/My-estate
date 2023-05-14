@@ -27,7 +27,7 @@ export const Slider = () => {
   };
 
   return (
-    <section className="carousel">
+    <section className="carousel" id='latest'>
       <h1 className="slider-title">Latest residences</h1>
       <Carousel responsive={responsive}>
         {data.map((data, index) => {

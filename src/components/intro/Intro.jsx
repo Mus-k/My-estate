@@ -1,14 +1,17 @@
 import React from "react";
 import "./Intro.css";
+import { Link } from "react-scroll";
 import { default as introImage } from "../../assets/images/cardImage8.png";
-import { Link } from "react-router-dom";
 import { Modern } from "../modern/Modern";
 import { Slider } from "../slider/Slider";
 import { Overview } from "../overview/Overview";
 import { NewLetter } from "../newsletter/NewLetter";
 import { Footer } from "../footer/Footer";
 import { motion } from "framer-motion";
+import { useNavigate } from "react-router-dom";
 export const Intro = () => {
+
+  const navigate = useNavigate();
   return (
     <motion.section
       className="intro"
@@ -39,10 +42,24 @@ export const Intro = () => {
               <br /> Don't worry! we got it for you
             </p>
             <div className="intro-btns">
-              <Link to="/contact" className="btn btn-contact">
+              <Link
+                spy={true}
+                smooth={true}
+                duration={500}
+                offset={50}
+                to="contact"
+                className="btn btn-contact"
+                onClick={()=>navigate("/contact")}
+              >
                 contact us
               </Link>
-              <Link to="/contact" className="btn btn-latest">
+              <Link
+                spy={true}
+                smooth={true}
+                duration={500}
+                to="latest"
+                className="btn btn-latest"
+              >
                 see the lastest
               </Link>
             </div>

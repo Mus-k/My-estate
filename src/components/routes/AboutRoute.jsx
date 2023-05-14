@@ -30,8 +30,8 @@ export const AboutRoute = () => {
           viewport={{ once: true }}
           transition={{ duration: 2 }}
           variants={{
-            hidden: { opacity: 0, y: 50 },
-            visible: { opacity: 1, y: 0 },
+            hidden: { opacity: 0, x: -50 },
+            visible: { opacity: 1, x: 0 },
           }}
         >
           <img src={aboutImg} alt="about us" width="100%" />
@@ -41,10 +41,10 @@ export const AboutRoute = () => {
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true }}
-          transition={{ duration: 2 }}
+          transition={{ duration: 1.5 }}
           variants={{
-            hidden: { opacity: 0, x: 100 },
-            visible: { opacity: 1, x: 0 },
+            hidden: { opacity: 0, y: 100 },
+            visible: { opacity: 1, y: 0 },
           }}
         >
           <h1 className="left-title">About us</h1>

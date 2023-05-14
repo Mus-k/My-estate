@@ -5,7 +5,9 @@
   text-decoration: none;
   list-style-type: none;
 }
-
+body{
+  background: #f6f8fa;
+}
 .app{
   position: relative;
 }
