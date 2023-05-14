@@ -16,14 +16,14 @@ export const Modern = () => {
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true }}
-          transition={{  duration: 2 }}
+          transition={{ duration: 2 }}
           variants={{
             hidden: { opacity: 0, y: 50 },
             visible: { opacity: 1, y: 0 },
           }}
         >
           <div className="img-div">
-            <img src={img1} alt="cardImage1" height="400px" />
+            <img src={img1} alt="cardImage1" width="100%" height="400px" />
           </div>
           <div className="nested-div-1">
             <div className="nested-box">
@@ -43,14 +43,14 @@ export const Modern = () => {
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true }}
-          transition={{delay:1.2, duration: 2 }}
+          transition={{ delay: 1.2, duration: 2 }}
           variants={{
             hidden: { opacity: 0, y: 50 },
             visible: { opacity: 1, y: 0 },
           }}
         >
           <div className="img-div">
-            <img src={img2} alt="cardImage1" height="400px" />
+            <img src={img2} alt="cardImage1" width="100%" height="400px" />
           </div>
 
           <div className="nested-div-1">
@@ -72,14 +72,13 @@ export const Modern = () => {
           whileInView="visible"
           viewport={{ once: true }}
           transition={{ delay: 1, duration: 2 }}
-       
           variants={{
             hidden: { opacity: 0, y: 50 },
             visible: { opacity: 1, y: 0 },
           }}
         >
           <div className="img-div">
-            <img src={img3} alt="cardImage1" height="400px" />
+            <img src={img3} alt="cardImage1" width="100%" height="400px" />
           </div>
           <div className="nested-div-1">
             <div className="nested-box">

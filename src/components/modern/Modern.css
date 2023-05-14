@@ -62,7 +62,10 @@ transform: scale(1.02);
    
 }
 
-
+.img-div{
+    padding: 0px 20px;
+    max-width: 360px;
+}
 /* .img-div{
     position: relative;
     width: 400px;
@@ -72,7 +75,7 @@ transform: scale(1.02);
 .item-3  .img-div img
  {
   border-radius: 0px 90px 0px 60px;
-  max-width: 360px;
+ 
  
  
 }
