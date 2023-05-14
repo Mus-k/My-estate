@@ -1,8 +1,8 @@
-import { default as img1 } from "../assets/images/cardImage4.png";
-import { default as img2 } from "../assets/images/cardImage5.png";
-import { default as img3 } from "../assets/images/cardImage6.png";
-import { default as img4 } from "../assets/images/cardImage7.png";
-import { default as img5 } from "../assets/images/cardImage8.png";
+import { default as img1 } from "../assets/images/profile-4.jpg";
+import { default as img2 } from "../assets/images/profile-3.jpg";
+import { default as img3 } from "../assets/images/profile-3.jpg";
+import { default as img4 } from "../assets/images/tesimonial.jpg";
+import { default as img5 } from "../assets/images/profile-3.jpg";
 
 const reviews = [
   {
