@@ -63,7 +63,7 @@ transform: scale(1.02);
 }
 
 .img-div{
-    padding: 0px 20px;
+   
     max-width: 360px;
 }
 /* .img-div{
@@ -199,4 +199,17 @@ transform: scale(1.02);
     
     
     
+}
+
+@media screen and (max-width:650px){
+    .cards-container{
+        display: flex;
+        position: relative;
+        width: 92%;
+        justify-content: center;
+        gap: 40px;
+        padding: 10px;
+      
+       
+    } 
 }
