@@ -285,9 +285,7 @@
   }
 }
 
-
 /* mobile sm */
-
 
 @media screen and (max-width: 460px) {
   .intro-wrapper {
@@ -302,18 +300,6 @@
     align-items: center;
     gap: 10px;
   }
-
-  /* left */
-  /* .intro-left {
-    align-self: center;
-    width: 100%;
-    position: relative;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    flex: 1;
-  } */
 
   .intro-left {
     order: 2;
@@ -350,8 +336,8 @@
     justify-content: flex-end;
   }
   .image-div img {
-    height: 400px;
-    border-radius: 190px 0px 80px 0px;
+    height: 350px;
+    border-radius: 90px 0px 0px 0px;
     align-self: flex-end;
   }
 
