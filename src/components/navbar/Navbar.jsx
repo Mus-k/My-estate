@@ -15,7 +15,7 @@ export const Navbar = () => {
       <nav className="navbar">
         <div className="nav-container">
           <NavLink exact to="/" className="nav-logo">
-         Estate
+            Estate
           </NavLink>
           <ul className={open ? "nav-menu active" : "nav-menu"}>
             <li className="nav-item">
