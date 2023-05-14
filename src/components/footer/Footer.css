@@ -1,5 +1,4 @@
-
-.f-wrapper{
+.f-wrapper {
   background: #6663da;
   padding: 40px 100px;
   margin-top: 50px;
@@ -8,7 +7,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  flex-wrap: wrap;
 }
 
 .f-left {
@@ -16,21 +14,21 @@
   flex-direction: column;
   gap: 1rem;
 }
-.f-right{
+.f-right {
   display: flex;
   flex-direction: column;
 }
-.primaryText{
+.primaryText {
   font-size: 25px;
   font-family: sans-serif;
 }
 
-.f-menu{
+.f-menu {
   display: flex;
- font-size: 20px;
- font-family: sans-serif;
+  font-size: 20px;
+  font-family: sans-serif;
 }
-.f-title{
+.f-title {
   font-size: 30px;
   font-family: sans-serif;
 }
@@ -40,14 +38,41 @@
   font-weight: 500;
 }
 
-
-@media (max-width:768px){
-  .f-container{
+@media (max-width: 768px) {
+  .f-container {
     justify-content: center;
   }
 
-  .f-container>div{
+  .f-container > div {
     align-items: center;
     text-align: center;
+  }
+
+  .f-menu {
+    gap: 1rem;
+    margin-top: 1.5rem;
+    font-weight: 500;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .f-menu {
+    gap: 1rem;
+    margin: 1.5rem auto;
+    font-weight: 500;
+    font-size: 12px;
+  }
+
+  .f-wrapper {
+    background: #6663da;
+    padding: 20px;
+    margin-top: 50px;
+  }
+
+  .f-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
   }
 }

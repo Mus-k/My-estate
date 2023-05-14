@@ -66,7 +66,7 @@ export const AboutRoute = () => {
             culpa qui officia deserunt mollit anim id est laborum
           </p>
 
-          <button className="golden-btn">
+          <button className="ab-btn">
             <Link to="/contact" className="g-link">
               contact us
             </Link>

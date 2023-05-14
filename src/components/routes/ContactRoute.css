@@ -9,6 +9,7 @@
   align-items: center;
   padding-top: 20px;
   height: 270px;
+  background-color: #251b37;
 }
 
 .c-leftInner {
@@ -20,17 +21,18 @@
 }
 
 .c-title {
-  font-size: 30px;
-  color: black;
+  font-size: 50px;
+  color: white;
   font-family: sans-serif;
-  font-weight: 500;
+  font-weight: 700;
 }
 
 .c-subTitle {
   color: #6663e9;
   font-size: x-large;
+  font-size: 50px;
   font-family: sans-serif;
-  font-weight: 500;
+  font-weight: 700;
 }
 
 .c-section {
@@ -112,4 +114,29 @@ input{
   }
   .c-info{
     font-size: 30px;
+  }
+
+  @media screen and (max-width:800px){
+    .subContainer{
+      flex-wrap: wrap;
+    }
+    
+.contact-left {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  gap: 15px;
+  align-items: flex-start;
+  flex-direction: column;
+  margin-top: 10px;
+  padding-left: 0px;
+}
+
+.c-info{
+  font-size: 20px;
+}
+
+.c-title, .c-subTitle{
+  font-size: 30px;
+}
   }

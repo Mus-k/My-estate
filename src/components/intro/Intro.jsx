@@ -2,11 +2,6 @@ import React from "react";
 import "./Intro.css";
 import { Link } from "react-scroll";
 import { default as introImage } from "../../assets/images/cardImage8.png";
-import { Modern } from "../modern/Modern";
-import { Slider } from "../slider/Slider";
-import { Overview } from "../overview/Overview";
-import { NewLetter } from "../newsletter/NewLetter";
-import { Footer } from "../footer/Footer";
 import { motion } from "framer-motion";
 import { useNavigate } from "react-router-dom";
 export const Intro = () => {
@@ -78,17 +73,11 @@ export const Intro = () => {
             }}
           >
             <div className="image-div">
-              <img src={introImage} alt="introImage" />
+              <img src={introImage} alt="introImage"
+              width='100%' />
             </div>
           </motion.div>
         </div>
-      </section>
-      <section>
-        <Modern />
-        <Slider />
-        <Overview />
-        <NewLetter />
-        <Footer />
       </section>
     </motion.section>
   );

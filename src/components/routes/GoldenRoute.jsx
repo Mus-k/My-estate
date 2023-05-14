@@ -21,8 +21,8 @@ export const GoldenRoute = () => {
             class="fa-solid fa-arrows-turn-right
           "
           ></i>
-          <i class="fa-sharp fa-solid fa-slash-forward text-white text-center pt-2 text-2xl"></i>
-          <h3 className="g-visa">Golden Visa</h3>
+ 
+          <h3 className="visa-title">Golden Visa</h3>
         </div>
       </div>
       <div className="g-info">

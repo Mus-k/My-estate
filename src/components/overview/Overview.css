@@ -1,8 +1,8 @@
-.review{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.review {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .o-container {
   display: flex;
@@ -24,6 +24,7 @@
   flex-direction: column;
   align-items: center;
   position: relative;
+  width: 50%;
 }
 .img-container img {
   margin: 30px auto;
@@ -38,20 +39,27 @@
   background-color: rgb(95, 95, 237);
   border-radius: 50%;
   padding: 6px 10px;
-  left: 43%;
-  top: 17%;
+  /* left: 35%; */
+  transform: translate(-90%, -20%);
+  display: none;
+  /* top: 17%; */
 }
 
 .o-title {
   text-align: center;
   font-size: 34px;
+  color: rgb(56, 56, 158);
 }
 .r-infor {
-  width: 40%;
+  width: 100%;
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
+}
+.r-job,
+.r-name{
+  font-size: 30px;
 }
 .r-name,
 .r-job,
@@ -65,12 +73,91 @@
   text-align: center;
 }
 
-.r-buttons{
+.r-buttons {
+  margin: 10px auto;
+  display: flex;
+  gap: 50px;
+}
+.prev-btn,
+.next-btn {
+  background-color: rgb(121, 121, 234);
+  width: 40px;
+  height: 30px;
+  padding-top: 2px;
+  font-size: 20px;
+  outline-color: white;
+  outline-style: none;
+  text-align: center;
+  color: white;
+  transition: all 0.3s ease-in-out;
+}
+button {
+  outline: none;
+}
+
+.prev-btn:hover,
+.next-btn:hover {
+  background-color: black;
+}
+
+
+@media screen and (max-width:769px){
+  
+  
+  .underline {
+    margin: 16px auto;
+    border-radius: 10px;
+    height: 5px;
+    width: 80px;
+    background-color: rgb(44, 17, 40);
+  }
+  .img-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    width: 80%;
+  }
+  .img-container img {
+    margin: 18px auto;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+  }
+ 
+  
+  .o-title {
+    text-align: center;
+    font-size: 34px;
+  }
+  .r-infor {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+ 
+  .r-name,
+  .r-job,
+  .r-text {
+    margin: 10px auto;
+  }
+  
+  .r-text {
+    /* width: 40%; */
+    align-self: center;
+    text-align: center;
+  }
+  
+  .r-buttons {
     margin: 10px auto;
     display: flex;
     gap: 50px;
-}
-.prev-btn, .next-btn{
+  }
+  .prev-btn,
+  .next-btn {
     background-color: rgb(121, 121, 234);
     width: 40px;
     height: 30px;
@@ -81,11 +168,14 @@
     text-align: center;
     color: white;
     transition: all 0.3s ease-in-out;
-}
-button{
+  }
+  button {
     outline: none;
-}
-
-.prev-btn:hover, .next-btn:hover{
-background-color: black;
+  }
+  
+  .prev-btn:hover,
+  .next-btn:hover {
+    background-color: black;
+  }
+  
 }

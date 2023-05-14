@@ -26,6 +26,8 @@
 .newsTitle{
     color: white;
     font-size: 30px;
+    text-align: center;
+    font-family: sans-serif;
 }
 
 .suscribe{
@@ -41,7 +43,7 @@
 border-radius: 30px;
 padding: 7px 10px;
     text-align: center;
-    background-color: beige;
+    background-color: white;
 }
 
 .subscribe-btn{
@@ -65,7 +67,15 @@ padding: 7px 10px;
     background: none;
   }
   .inputNews::placeholder {
-    background-color: beige;
-    color: white;
+    background-color: white;
+    color: #6663e9;
     
+  }
+
+  @media screen and (max-width:700px){
+    .newsTitle{
+        color: white;
+        font-size: 20px;
+      
+    }
   }

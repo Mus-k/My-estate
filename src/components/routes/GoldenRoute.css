@@ -10,6 +10,8 @@
   width: 100%;
   padding-top: 40px;
   height: 300px;
+  background: #251b37;
+  margin-bottom: 10px;
 }
 
 .gh-title {
@@ -20,22 +22,24 @@
 }
 
 .g-home {
-  font-size: 30px;
-  color: black;
+  font-size: 50px;
+  color: #ffff;
   font-family: sans-serif;
   font-weight: bold;
 }
 
-.fa-arrows-turn-right {
-  color: rgb(234, 162, 18);
-  text-align: center;
-  padding-top: 10px;
-  font-size: 2rem;
+.visa-title {
+  font-size: 40px;
+  font-family: sans-serif;
+  font-weight: bold;
+  color: rgb(18, 133, 234);
 }
 
-.g-visa {
-  color: #6663e9;
-  font-size: large;
+.fa-arrows-turn-right {
+  color: #dbd1ee;
+  text-align: center;
+  padding-top: 10px;
+  font-size: 1.2rem;
 }
 
 .g-info {
@@ -72,4 +76,35 @@
 
 .g-link {
   color: aliceblue;
+}
+
+@media screen and (max-width: 769px) {
+  .g-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-top: 60px;
+    height: 200px;
+    background: #251b37;
+  }
+  .gh-title {
+    display: flex;
+    gap: 14px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .g-home {
+    font-size: 30px;
+    color: #ffff;
+    font-family: sans-serif;
+    font-weight: bold;
+  }
+
+  .visa-title {
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: bold;
+  }
 }
