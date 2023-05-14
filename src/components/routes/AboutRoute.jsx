@@ -5,9 +5,13 @@ import {default as aboutImg } from '../../assets/images/aboutImg.jpg'
 import { Overview } from '../overview/Overview'
 import { NewLetter } from '../newsletter/NewLetter'
 import { Footer } from '../footer/Footer'
+import { motion } from "framer-motion";
 export const AboutRoute = () => {
   return (
-    <section className="about">
+    <motion.section className="about"
+    initial={{ opacity: 0 }}
+    animate={{ opacity: 1 }}
+    exit={{ opacity: 0 }}>
       <div className="ab-container">
         <div className="ab-inner">
           <h1 className="ab-title">
@@ -59,6 +63,6 @@ export const AboutRoute = () => {
     <Overview/>
     <NewLetter/>
     <Footer/>
-    </section>
+    </motion.section>
   )
 }

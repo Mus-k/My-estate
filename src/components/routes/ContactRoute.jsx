@@ -1,10 +1,14 @@
 import React from 'react';
 import './ContactRoute.css';
 import { Footer } from '../footer/Footer'
+import { motion } from "framer-motion";
 
 export const ContactRoute = () => {
   return (
-    <section className="contact">
+    <motion.section className="contact"
+    initial={{ opacity: 0 }}
+    animate={{ opacity: 1 }}
+    exit={{ opacity: 0}}>
       <div className="c-left">
         <div className="c-leftInner">
           <h1 className="c-title">
@@ -93,6 +97,6 @@ export const ContactRoute = () => {
         </div>
       </section>
       <Footer />
-    </section>
+    </motion.section>
   )
 }

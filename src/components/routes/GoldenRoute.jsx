@@ -4,9 +4,13 @@ import './GoldenRoute.css';
 import {default as golden} from '../../assets/images/visa.jpg'
 import { Overview } from '../overview/Overview';
 import { Footer } from '../footer/Footer';
+import { motion } from "framer-motion";
 export const GoldenRoute = () => {
   return (
-   <section className='golden'>
+   <motion.section className='golden'
+   initial={{ opacity: 0 }}
+   animate={{ opacity: 1 }}
+   exit={{ opacity: 0 }}>
 
       <div className="g-container">
         <div className="gh-title">
@@ -47,6 +51,6 @@ export const GoldenRoute = () => {
      
     <Overview/>
     <Footer/>
-   </section>
+   </motion.section>
   )
 }
