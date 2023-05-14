@@ -3,6 +3,7 @@ import "./Modern.css";
 import { default as img1 } from "../../assets/images/cardImage1.png";
 import { default as img2 } from "../../assets/images/cardImage2.png";
 import { default as img3 } from "../../assets/images/cardImage3.png";
+import { motion } from "framer-motion";
 export const Modern = () => {
   return (
     <section className="modern">
@@ -10,7 +11,17 @@ export const Modern = () => {
         Our Best Estate, <br /> are Modern
       </h2>
       <div className="cards-container">
-        <div className="cards item-1 ">
+        <motion.div
+          className="cards item-1 "
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true }}
+          transition={{  duration: 2 }}
+          variants={{
+            hidden: { opacity: 0, y: 50 },
+            visible: { opacity: 1, y: 0 },
+          }}
+        >
           <div className="img-div">
             <img src={img1} alt="cardImage1" height="400px" />
           </div>
@@ -23,11 +34,21 @@ export const Modern = () => {
               Lorem ipsum dolor sit amet, amet consectetur adipiscing{" "}
             </p>
           </div>
-        </div>
+        </motion.div>
 
         {/* 2nd */}
 
-        <div className="cards item-2 ">
+        <motion.div
+          className="cards item-2 "
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true }}
+          transition={{delay:1.2, duration: 2 }}
+          variants={{
+            hidden: { opacity: 0, y: 50 },
+            visible: { opacity: 1, y: 0 },
+          }}
+        >
           <div className="img-div">
             <img src={img2} alt="cardImage1" height="400px" />
           </div>
@@ -41,11 +62,22 @@ export const Modern = () => {
               Lorem ipsum dolor sit amet, amet consectetur adipiscing{" "}
             </p>
           </div>
-        </div>
+        </motion.div>
 
         {/* 3rd */}
 
-        <div className="cards item-3 ">
+        <motion.div
+          className="cards item-3 "
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true }}
+          transition={{ delay: 1, duration: 2 }}
+       
+          variants={{
+            hidden: { opacity: 0, y: 50 },
+            visible: { opacity: 1, y: 0 },
+          }}
+        >
           <div className="img-div">
             <img src={img3} alt="cardImage1" height="400px" />
           </div>
@@ -58,7 +90,7 @@ export const Modern = () => {
               Lorem ipsum dolor sit amet, ameet consectetur adipiscing{" "}
             </p>
           </div>
-        </div>
+        </motion.div>
       </div>
     </section>
   );

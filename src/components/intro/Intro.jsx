@@ -19,15 +19,17 @@ export const Intro = () => {
       <section className="intro-wrapper">
         <div className="intro-container">
           {/* left */}
-          <motion.div className="intro-left"
-          initial='hidden'
-          whileInView='visible'
-          viewport={{once:true}}
-          transition={{duration:0.5}}
-          variants={{
-            hidden:{opacity:0, x:-50},
-            visible:{opacity:1, x:0}
-          }}>
+          <motion.div
+            className="intro-left"
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true }}
+            transition={{ duration: 1 }}
+            variants={{
+              hidden: { opacity: 0, x: -50 },
+              visible: { opacity: 1, x: 0 },
+            }}
+          >
             <h1 className="intro-title">
               Home That Makes
               <br /> You <span className="hightlight">Living</span> Life!
@@ -47,7 +49,17 @@ export const Intro = () => {
           </motion.div>
 
           {/* right */}
-          <motion.div className="intro-right">
+          <motion.div
+            className="intro-right"
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true }}
+            transition={{ duration: 1 }}
+            variants={{
+              hidden: { opacity: 0, y: 50 },
+              visible: { opacity: 1, y: 0 },
+            }}
+          >
             <div className="image-div">
               <img src={introImage} alt="introImage" />
             </div>

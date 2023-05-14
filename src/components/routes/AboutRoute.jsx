@@ -1,41 +1,53 @@
-import React from 'react'
-import './About.css'
-import { Link } from 'react-router-dom'
-import {default as aboutImg } from '../../assets/images/aboutImg.jpg'
-import { Overview } from '../overview/Overview'
-import { NewLetter } from '../newsletter/NewLetter'
-import { Footer } from '../footer/Footer'
+import React from "react";
+import "./About.css";
+import { Link } from "react-router-dom";
+import { default as aboutImg } from "../../assets/images/aboutImg.jpg";
+import { Overview } from "../overview/Overview";
+import { NewLetter } from "../newsletter/NewLetter";
+import { Footer } from "../footer/Footer";
 import { motion } from "framer-motion";
 export const AboutRoute = () => {
   return (
-    <motion.section className="about"
-    initial={{ opacity: 0 }}
-    animate={{ opacity: 1 }}
-    exit={{ opacity: 0 }}>
+    <motion.section
+      className="about"
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      exit={{ opacity: 0 }}
+    >
       <div className="ab-container">
         <div className="ab-inner">
-          <h1 className="ab-title">
-            Home
-          </h1>
-          <i
-            class="fa-solid fa-arrows-turn-right"
-          ></i>
-        
+          <h1 className="ab-title">Home</h1>
+          <i class="fa-solid fa-arrows-turn-right"></i>
+
           <h3 className="ab-subTitle">About</h3>
         </div>
       </div>
       <section className="ab-section">
-        <div className="ab-img">
-          <img
-            src={aboutImg}
-            alt="about us"
-           width='100%'
-          />
-        </div>
-        <div className="ab-left">
-          <h1 className="left-title">
-            About us
-          </h1>
+        <motion.div
+          className="ab-img"
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true }}
+          transition={{ duration: 2 }}
+          variants={{
+            hidden: { opacity: 0, y: 50 },
+            visible: { opacity: 1, y: 0 },
+          }}
+        >
+          <img src={aboutImg} alt="about us" width="100%" />
+        </motion.div>
+        <motion.div
+          className="ab-left"
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true }}
+          transition={{ duration: 2 }}
+          variants={{
+            hidden: { opacity: 0, x: 100 },
+            visible: { opacity: 1, x: 0 },
+          }}
+        >
+          <h1 className="left-title">About us</h1>
 
           {/* <p className="md:hidden">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -55,14 +67,15 @@ export const AboutRoute = () => {
           </p>
 
           <button className="golden-btn">
-            <Link to="/contact"
-            className='g-link'>contact us</Link>
+            <Link to="/contact" className="g-link">
+              contact us
+            </Link>
           </button>
-        </div>
+        </motion.div>
       </section>
-    <Overview/>
-    <NewLetter/>
-    <Footer/>
+      <Overview />
+      <NewLetter />
+      <Footer />
     </motion.section>
-  )
-}
+  );
+};
