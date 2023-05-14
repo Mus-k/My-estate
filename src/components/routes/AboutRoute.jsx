@@ -2,10 +2,11 @@ import React from "react";
 import "./About.css";
 import { Link } from "react-router-dom";
 import { default as aboutImg } from "../../assets/images/aboutImg.jpg";
-import { Overview } from "../overview/Overview";
+
 import { NewLetter } from "../newsletter/NewLetter";
 import { Footer } from "../footer/Footer";
 import { motion } from "framer-motion";
+import { View } from "../overview/View";
 export const AboutRoute = () => {
   return (
     <motion.section
@@ -73,7 +74,7 @@ export const AboutRoute = () => {
           </button>
         </motion.div>
       </section>
-      <Overview />
+      <View />
       <NewLetter />
       <Footer />
     </motion.section>

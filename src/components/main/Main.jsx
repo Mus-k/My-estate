@@ -2,9 +2,10 @@ import React from 'react'
 import { Intro } from '../intro/Intro'
 import { Modern } from '../modern/Modern'
 import { Slider } from '../slider/Slider'
-import { Overview } from '../overview/Overview'
+
 import { NewLetter } from '../newsletter/NewLetter'
 import { Footer } from '../footer/Footer'
+import { View } from '../overview/View'
 
 export const  Main= () => {
   return (
@@ -12,7 +13,7 @@ export const  Main= () => {
 <Intro/>
 <Modern/>
 <Slider/>
-<Overview/>
+<View/>
 <NewLetter/>
 <Footer/>
 

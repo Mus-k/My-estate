@@ -3,9 +3,10 @@ import { Link } from "react-router-dom";
 
 import "./GoldenRoute.css";
 import { default as golden } from "../../assets/images/visa.jpg";
-import { Overview } from "../overview/Overview";
+
 import { Footer } from "../footer/Footer";
 import { motion } from "framer-motion";
+import { View } from "../overview/View";
 export const GoldenRoute = () => {
   return (
     <motion.section
@@ -71,7 +72,7 @@ export const GoldenRoute = () => {
         </section>
       </div>
 
-      <Overview />
+      <View />
       <Footer />
     </motion.section>
   );

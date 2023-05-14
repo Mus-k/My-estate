@@ -1,7 +1,7 @@
-import React from "react";
-import "./Overview.css";
-import { Review } from "./Review";
-export const Overview = () => {
+import React from 'react'
+import './Overview.css'
+import { Display } from './Display'
+export const View = () => {
   return (
     <main>
       <section
@@ -11,9 +11,9 @@ export const Overview = () => {
         <div className="title">
           <h2 className="o-title">Testimonials</h2>
           <div className="underline"></div>
-          <Review />
+        <Display/>
         </div>
       </section>
     </main>
-  );
-};
+  )
+}
