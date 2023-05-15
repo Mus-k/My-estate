@@ -35,12 +35,14 @@
 }
 
 .ab-section {
+ 
   display: flex;
-  /* flex-direction: column; */
   justify-content: space-around;
   align-items: center;
   gap: 5px;
   padding: 70px;
+  max-width: 1600px;
+  margin: 2px auto;
 }
 
 .ab-img {

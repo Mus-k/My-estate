@@ -32,7 +32,7 @@
   font-size: 40px;
   font-family: sans-serif;
   font-weight: bold;
-  color: rgb(18, 133, 234);
+  color: #6663e9;
 }
 
 .fa-arrows-turn-right {
@@ -59,13 +59,12 @@
   gap: 15px;
   padding: 0px 20px;
 }
-.golden-sub-title{
+.golden-sub-title {
   margin: 3px auto;
 }
 .golden-title {
-justify-content: center;
-align-self: center;
- 
+  justify-content: center;
+  align-self: center;
 }
 .visaImg-div {
   max-width: 350px;
@@ -116,5 +115,5 @@ align-self: center;
     align-self: center;
     font-size: 15px;
     width: 100%;
-    }
+  }
 }
