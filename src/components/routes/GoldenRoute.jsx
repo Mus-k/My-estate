@@ -42,7 +42,7 @@ export const GoldenRoute = () => {
               visible: { opacity: 1, x: 0 },
             }}
           >
-            La Vida Golden Visas facilitates the acquisition of residency,
+            Estate Golden Visas facilitates the acquisition of residency,
             immigration and citizenship through investment. We make what looks
             like an expensive and difficult option, affordable and complex free.
             With clients from more than 150 countries worldwide and over 18

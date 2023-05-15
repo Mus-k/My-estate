@@ -62,14 +62,14 @@
   font-size: 30px;
 }
 .r-name,
-.r-job,
-.r-text {
+.r-job
+ {
   margin: 10px auto;
 }
 
 .r-text {
-  /* width: 40%; */
-  align-self: center;
+  
+  align-self: flex-start;
   text-align: center;
 }
 

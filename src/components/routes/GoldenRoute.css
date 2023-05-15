@@ -59,9 +59,13 @@
   gap: 15px;
   padding: 0px 20px;
 }
-.golden-sub-title,
+.golden-sub-title{
+  margin: 3px auto;
+}
 .golden-title {
-  text-align: center;
+justify-content: center;
+align-self: center;
+ 
 }
 .visaImg-div {
   max-width: 350px;
@@ -107,4 +111,10 @@
     font-family: sans-serif;
     font-weight: bold;
   }
+  .golden-title {
+    justify-content: center;
+    align-self: center;
+    font-size: 15px;
+    width: 100%;
+    }
 }
