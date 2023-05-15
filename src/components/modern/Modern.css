@@ -1,4 +1,6 @@
 .modern{
+    max-width: 1600px;
+    margin: 2px auto;
     position: relative;
     display: flex;
     flex-direction: column;

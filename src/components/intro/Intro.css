@@ -1,9 +1,10 @@
 .intro {
   max-width: 1600px;
+  margin: 2px auto;
   position: relative;
   z-index: 2;
   height: 100vh;
-  margin: 2px auto;
+ 
 }
 .intro-wrapper {
   display: flex;

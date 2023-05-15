@@ -1,5 +1,7 @@
 .carousel {
   padding: 100px 100px;
+  max-width: 1600px;
+  margin: 2px auto;
   position: relative;
 }
 
