@@ -65,6 +65,8 @@ padding: 7px 10px;
     border: none;
     font-size: 16px;
     background: none;
+    border: none;
+    outline: none;
   }
   .inputNews::placeholder {
     background-color: white;

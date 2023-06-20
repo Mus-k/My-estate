@@ -1,22 +1,25 @@
-import React from 'react'
-import { Intro } from '../intro/Intro'
-import { Modern } from '../modern/Modern'
-import { Slider } from '../slider/Slider'
+import React from "react";
+import { Intro } from "../intro/Intro";
+import { Modern } from "../modern/Modern";
+import { Slider } from "../slider/Slider";
 
-import { NewLetter } from '../newsletter/NewLetter'
-import { Footer } from '../footer/Footer'
-import { View } from '../overview/View'
+import { NewLetter } from "../newsletter/NewLetter";
+import { Footer } from "../footer/Footer";
 
-export const  Main= () => {
+import { Dream } from "../dream/Dream";
+import { View } from "../overview/View";
+
+export const Main = () => {
   return (
     <div>
-<Intro/>
-<Modern/>
-<Slider/>
-<View/>
-<NewLetter/>
-<Footer/>
+      <Intro />
+      <Modern />
+      <Slider />
 
+      <Dream />
+      <View />
+      <NewLetter />
+      <Footer />
     </div>
-  )
-}
+  );
+};

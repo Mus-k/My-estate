@@ -1,0 +1,345 @@
+.dream-section {
+  display: flex;
+  max-width: 1600px;
+  padding: 20px auto;
+  margin: 20px;
+  position: relative;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.dream-container {
+  width: 95%;
+  background: url("../../assets/images/featuresImage1.png");
+  height: 70vh;
+  background-repeat: no-repeat;
+  background-size: 55%;
+  object-fit: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
+.dr-title {
+  font-size: 3rem;
+  color: rgb(20, 67, 147);
+}
+.dream-wrapper {
+  background-color: white;
+
+  width: 55%;
+  float: right;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 50px;
+  gap: 20px;
+}
+.dream-texts {
+  font-size: 1.3rem;
+  /* width: 80%; */
+  color: black;
+}
+.shape {
+  display: flex;
+  gap: 10px;
+}
+
+.circle img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+}
+.triangle img {
+  width: 120px;
+  height: 120px;
+  border-radius: 150px 150px 0px 0px;
+}
+
+.square img {
+  border-radius: 80px 10px 0px 0px;
+  width: 120px;
+  height: 120px;
+}
+.square-op img {
+  border-radius: 10px 80px 0px 0px;
+  width: 120px;
+  height: 120px;
+}
+
+.initial img {
+  width: 120px;
+  height: 120px;
+}
+
+@media screen and (max-width: 1300px) {
+  .dream-container {
+    width: 97%;
+    background: url("../../assets/images/featuresImage1.png");
+    height: 70vh;
+    background-repeat: no-repeat;
+    background-size: 70%;
+    object-fit: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .dr-title {
+    font-size: 1rem;
+  }
+  .dream-wrapper {
+    background-color: white;
+
+    width: 65%;
+    float: right;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 20px;
+    gap: 20px;
+  }
+  .dream-texts {
+    font-size: 2rem;
+    /* width: 80%; */
+    color: black;
+  }
+
+  .dream-texts {
+    font-size: 1rem;
+    /* width: 80%; */
+    color: black;
+  }
+  .shape {
+    display: flex;
+    gap: 10px;
+  }
+
+  .circle img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
+  .triangle img {
+    width: 100px;
+    height: 100px;
+    border-radius: 150px 150px 0px 0px;
+  }
+
+  .square img {
+    border-radius: 80px 10px 0px 0px;
+    width: 100px;
+    height: 100px;
+  }
+  .square-op img {
+    border-radius: 10px 80px 0px 0px;
+    width: 100px;
+    height: 100px;
+  }
+
+  .initial img {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .dream-container {
+    width: 98%;
+    background: url("../../assets/images/featuresImage1.png");
+    height: 70vh;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    object-fit: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .dr-title {
+    font-size: 1.2rem;
+  }
+  .dream-wrapper {
+    background-color: white;
+
+    width: 70%;
+    float: right;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 20px;
+    gap: 20px;
+  }
+  .dream-texts {
+    font-size: 2rem;
+    /* width: 80%; */
+    color: black;
+  }
+
+  .dream-texts {
+    font-size: 1rem;
+    /* width: 80%; */
+    color: black;
+  }
+  .shape {
+    display: flex;
+    gap: 10px;
+  }
+
+  .circle img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
+  .triangle img {
+    width: 100px;
+    height: 100px;
+    border-radius: 150px 150px 0px 0px;
+  }
+
+  .square img {
+    border-radius: 80px 10px 0px 0px;
+    width: 100px;
+    height: 100px;
+  }
+  .square-op img {
+    border-radius: 10px 80px 0px 0px;
+    width: 100px;
+    height: 100px;
+  }
+
+  .initial img {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .dream-container {
+    width: 98%;
+    background: url("../../assets/images/featuresImage1.png");
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    object-fit: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .dr-title {
+    font-size: 1rem;
+  }
+  .dream-wrapper {
+    background-color: white;
+    width: 80%;
+    float: right;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 10px;
+    gap: 14px;
+  }
+  .dream-texts {
+    font-size: 1rem;
+    /* width: 80%; */
+    color: black;
+  }
+
+  .shape {
+    display: flex;
+    gap: 10px;
+  }
+
+  .circle img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+  }
+  .triangle img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50px 50px 0px 0px;
+  }
+
+  .square img {
+    border-radius: 50px 10px 0px 0px;
+    width: 80px;
+    height: 80px;
+  }
+  .square-op img {
+    border-radius: 10px 50px 0px 0px;
+    width: 80px;
+    height: 80px;
+  }
+
+  .initial img {
+    width: 80px;
+    height: 80px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .dream-container {
+    width: 98%;
+    background: url("../../assets/images/featuresImage1.png");
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    object-fit: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .dr-title {
+    font-size: 0.8rem;
+  }
+  .dream-wrapper {
+    background-color: white;
+    width: 95%;
+    float: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 8px 6px;
+    gap: 7px;
+  }
+  .dream-texts {
+    font-size: 0.8rem;
+    /* width: 80%; */
+    color: black;
+  }
+
+  .shape {
+    display: flex;
+    gap: 7px;
+  }
+
+  .circle img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+  }
+  .triangle img {
+    width: 60px;
+    height: 60px;
+    border-radius: 20px 20px 0px 0px;
+  }
+
+  .square img {
+    border-radius: 20px 10px 0px 0px;
+    width: 60px;
+    height: 60px;
+  }
+  .square-op img {
+    border-radius: 10px 20px 0px 0px;
+    width: 60px;
+    height: 60px;
+  }
+
+  .initial img {
+    width: 60px;
+    height: 60px;
+  }
+}
